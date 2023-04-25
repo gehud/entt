@@ -326,8 +326,7 @@ private:
                 }
             }
 
-            using std::swap;
-            swap(elem, element_at(to));
+            std::swap(elem, element_at(to));
         }
     }
 
